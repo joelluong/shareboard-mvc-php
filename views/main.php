@@ -4,9 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/img/logo.ico">
 </head>
 <body>
-<header class="bg-dark">
+<header class="bg-dark fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="<?php echo ROOT_URL; ?>"><strong>Share Board</strong></a>
@@ -37,7 +38,7 @@
     </div>
 </header>
 
-<main role="main">
+<main role="main" class="mt-3">
     <div class="album py-5 bg-light">
         <div class="container">
             <?php
