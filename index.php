@@ -5,12 +5,15 @@
  * Date: 5/11/2018
  * Time: 1:44 PM
  */
+// Start Session
+session_start();
 // Include Config
 require ('config.php');
 
 require ('classes/Bootstrap.php');
 require ('classes/Controller.php');
 require ('classes/Model.php');
+require ('classes/Messages.php');
 
 require ('controllers/home.php');
 require ('controllers/shares.php');

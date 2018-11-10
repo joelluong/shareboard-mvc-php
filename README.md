@@ -1,7 +1,9 @@
 # shareboard-mvc-php
-Part 1 of the project including Bootstrap Class, Controllers, Models and Views have completed.
+* Build a ShareBoard Application
+* Build a complete MVC framework from scratch
+* Build a complete login and registration system
+* Create multiple classes/objects and integrated into the application
 
-Part 2 of the project including Adding Shares, User Authentication, Message function are still building.
 ## Table of Contents
 
 * [Description](#Description)
